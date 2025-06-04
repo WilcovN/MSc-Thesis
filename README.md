@@ -1,16 +1,16 @@
-# MSc-Thesis
+# MSc Thesis – Segmentation & Spatiotemporal Analysis
 
-This repository contains a series of Jupyter Notebooks designed to segment and analyse the experiments created by Wilco van Nes and Tsai-Ying Chen using Python. 
-Each notebook is independently documented with its name refering to internal experiments that have a detailed explanations of logic, methodology, and the environment used.
-All code was written to work on Intel CPU's.
+This repository contains a series of Jupyter Notebooks developed for the segmentation and analysis of biological imaging experiments conducted by **Wilco van Nes** and **Tsai-Ying Chen**. The entire project is implemented in Python, with detailed documentation embedded within each notebook.
 
-For the spatoptemporal analysis the code
-Segmentation code/TYC70_markov_phenotyping.ipynb
-Is most developed
+Each notebook's name reflects its corresponding internal experiment and is independently documented to explain the logic, methodology, and computational environment used. All scripts are developed to run on **Intel CPU-based machines**.
+
+> 🔍 The most developed code for the spatiotemporal analysis can be found in:
+>  
+> `Spatiotemporal code/TYC70_markov_phenotyping.ipynb`
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```bash
 .
@@ -29,4 +29,5 @@ Is most developed
 │   ├── Neighborhood_encoder_test.ipynb
 │   └── TYC70_markov_phenotyping.ipynb
 ├── cellpose.yml
+├── csbdeep.yml (used for stardist code)
 └── README.md
